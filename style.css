@@ -1,0 +1,661 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+body{
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 5;
+}
+header{
+    width: 100%;
+    height: 790px;
+    background-color: hsl(256, 26%, 20%);
+
+    
+}
+.primerLogo{
+   width: 135px;
+    margin-top: 25%;
+    margin-left: 130%;
+
+}
+.barrita{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 11%;
+    
+    width: 60%;
+    z-index: 3;
+    
+    
+   
+}
+.navbar div{
+    padding-left: 25px;
+    margin-top: 18px;
+    font-size: 14.5px;
+    font-family: 'Roboto', sans-serif;
+    
+    color: #989899;
+letter-spacing: 2px;  
+font-weight: 600;
+
+}
+.navbar div :hover{
+    color: hsl(256, 26%, 20%);;
+}
+#primerBoton{
+    letter-spacing: 2px;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 23px;
+    width: 150px;
+    padding-top: 10px;
+    padding-right: 10px;
+    height: 43px;
+   border: 2px solid black;
+    margin-left: 30px;
+    background-color: white;
+    
+  
+}
+
+
+#primerBoton:hover{
+    background-color:  hsl(256, 26%, 20%);
+    
+    color: white;
+}
+
+.imgRayita{
+    object-fit: cover;
+    width: 200px;
+    height: 20px;
+
+}
+
+.contentFirstText{
+    display: flex;
+    padding-top: 6%;
+    padding-left: 10%;
+max-width: 50%;
+height: 100%;
+
+
+
+}
+.primerTitulo{
+    width: 130%;
+    padding-top: 10%;
+    font-size: 80px;
+    display: flex;
+    color: rgb(255, 255, 255);
+   letter-spacing: -2px;
+   line-height: 80px;
+   transform:scaleX(1);
+  
+ 
+  
+   
+}
+.parrafoPrimerTitulo{
+    margin-top: 50px;
+    
+}
+.parrafoPrimerTitulo{
+    width: 148%;
+    color: rgb(252, 252, 252);
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+}
+.segundoBoton{
+    font-size: 14.5px;
+    margin-top: 5%;
+    width: 170px;
+    height: 48px;
+    border: 2px solid white;
+    color: rgb(252, 252, 252);
+    padding-top: 14px;
+    padding-left: 28px;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.segundoBoton:hover{
+    background-color: white;
+    color: black;
+}
+.imagenIntro{
+  
+    margin-left: 37%;
+    
+    
+}
+.imgIntro{
+width: 35vw;
+height: 40vw;
+
+}
+.primeraDecoracion{
+    width: 480px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+   
+}
+.segundaDecoracion{
+    position: absolute;
+    left: 0;
+    top: 580px;
+}
+.rayita2{
+    width: 200px;
+    margin-top: 18%;
+    margin-left: 9.5%;
+}
+main{
+    max-width: 100%;
+    height: 1500px;
+}
+.segundoTitulo{
+    margin-top: 4%;
+    margin-left: 9.5%;
+    font-size: 60px;
+    letter-spacing: -3px;
+    transform:scaleX(1.);
+}
+.tresArticulos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 9.5%;
+   max-width: 100%;
+    margin-top: 80px;
+    padding-top: 20px;
+
+}
+.primerArticulo{
+
+max-width: 27%;
+
+
+margin-right: 68px;
+
+
+
+}
+.primeraImagen{
+    width: 105px;
+}
+h3{
+    margin-top: 35px;
+    font-size: 37px;
+    
+}
+.textPrimerArticulo{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 440;
+    color: #9d9d9d;
+letter-spacing: 0.8px;
+line-height: 28px;  
+
+}
+.segundaImagen{
+    width: 105px;
+}
+.recuadro{
+    display: flex;
+    flex-direction: row;
+margin-top: 200px;
+   max-width: 100%;
+    height: 300px;
+    background-color: hsl(256, 26%, 20%);
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+
+
+}
+.tercerTitulo{
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+    font-size: 45px;
+    padding-left: 6%;
+    color: white;
+    font-weight: 700;
+}
+.decoracionTres{
+ position: absolute; 
+ 
+ right: 9.5%;
+ width: 520px;  
+}
+a{
+    text-decoration: none;
+}
+.tercerBoton{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+  padding-top: 8.5%;
+  padding-left: 27.5%;
+  
+}
+
+.contenedorBoton:hover{
+    background-color: white;
+    color:   hsl(256, 26%, 20%);
+}
+.contenedorBoton{
+    color: white;
+    font-size: 14.5px;
+
+ 
+    font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 13px;
+    width: 205px;
+    height: 47px;
+    border: 2px solid white;
+position: relative;
+z-index: 10;
+}
+.pieDePagina{
+    width: 100%;
+    height: 430px;
+    background-color: rgb(250, 250, 250);
+}
+.segundoLogo{
+    
+
+width: 140px;
+position: relative;
+z-index: 10;
+}
+.terceraDecoracion{
+    position: absolute;
+    width: 645px;
+    top: 2380px;
+}
+.contentSegundoLogo{
+    
+    flex-direction: row;
+}
+.iconos{
+    display: flex;
+    padding-top: 4.5%;
+    border-bottom: 1px solid rgb(193, 192, 192);
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    height: 140px;
+}
+.contentSegundoLogo{
+
+    
+    
+    width: 50%;
+    
+    position: relative;
+    z-index: 10;
+    
+}
+.logito{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.redes{
+    width: 26px;
+    margin-left: 18px;
+}
+.redes1{
+    width: 27px;
+    margin-left: 18px;;
+    margin-top: 3px;
+}
+.ayudas{
+    position: relative;
+    z-index: 10;
+    margin-top: 1.5%;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 200px;
+    
+    
+    
+}
+.titulitosDelFooter{ 
+   
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 600;
+letter-spacing: 1px;
+font-size: 14.5px;
+color: rgb(143, 141, 141);
+height: 50px;
+}
+.textoDelFooter{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+font-weight: 600;
+letter-spacing: 1.8px;
+font-size: 14.5px;
+line-height: 33px;
+color:hsl(256, 16%, 33%); ;
+}
+.primerArticuloFooter{
+    width: 200px;
+    margin-right: 11.5%;
+   
+    
+}
+.purosLinks{
+    color:hsl(256, 16%, 33%)  
+}
+.purosLinks:hover{
+    border-bottom:  1px solid black;
+
+}
+.redes:hover{
+  
+filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(343deg) brightness(1%) contrast(101%); 
+}
+.redes1:hover{
+  
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(343deg) brightness(1%) contrast(101%)}
+    .decoracionMobil{
+        width: 0%;
+    }
+    .segundaDecoracionMobil{
+        width: 0%;
+    }
+    .decoracionMobil1{
+        width: 0%;
+    }
+    .decoracionMobil2{
+        width: 0;
+    }
+   
+    @media screen and (max-width:375px) {
+        body{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .imagenIntro{
+          margin: 0%;
+            object-fit: cover;
+        }
+        .imgIntro{
+     width: 365px;
+     height: 500px;
+     position: absolute;
+     left: 0px;
+     top: 89.59px;
+                  
+        }
+        .primerLogo{
+            margin-left: 20%;
+        }
+        .barrita div{
+            width: 0;
+            font-size: 0;
+            margin: 0;
+        }
+        .primeraDecoracion{
+            width: 0;
+        }
+        #primerBoton{
+            width: 0;
+            font-size: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            border: 0;
+            width: 100%;
+            padding: 0;
+            height: 1000px;
+            margin: 0;
+            
+        }
+        .contentFirstText{
+            display: flex;
+            flex-direction: column-reverse;
+padding: 8%;
+
+
+
+
+        }
+       
+        .segundaDecoracion{
+            width: 0%;
+        }
+        .text {
+            margin: 0%;
+            padding: 0%;
+        }
+        .imgRayita{
+            width: 0%;
+
+        }
+        main{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            height: 1700px;
+            
+        }
+        .parrafoPrimerTitulo{ 
+            margin-top: 25px;
+            width: 325px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 22px;
+
+        }
+        .primerTitulo{
+            margin-top: -400px;
+            width: 325px;
+          
+        
+            font-size: 45px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: px;
+        }
+      
+.segundoBoton{
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 24px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top:950px;
+    left: 123px;
+    z-index: 500;
+    border: 1px solid white;
+    font-weight: 100;
+}
+.rayita2{
+    width: 150px;
+    margin-left: 125px;
+}
+.segundoTitulo{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.tresArticulos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+    margin: 0;
+}
+.textPrimerArticulo{
+    width: 300px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.5;
+    line-height: 25px;
+    margin-bottom: 60px;
+    
+}
+.primeraImagen{
+    margin-left: 140%;
+    width: 85px;
+    
+}
+h3{
+    width: 300px;
+    text-align: center;
+    font-size: 28px;
+}
+.decoracionTres{
+    width: 0%;
+}
+.terceraDecoracion{
+    width: 0%;
+}
+.pieDePagina{
+    display: flex;
+    flex-direction: column;
+    height: 1155px;
+    width: 100%;
+    align-items: center;
+}
+.iconos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 208px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+.ayudas{display: flex;
+flex-direction: column;}
+.recuadro{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 400px;
+    margin-bottom: 150px;
+    padding-top: 70px;
+   
+
+}
+.tercerTitulo{
+    width: 100%;
+    padding: 0%;
+    position: relative;
+    z-index: 10;
+}   
+.titulo3 {
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+
+}
+.contenedorBoton{
+    width: 180px;
+    border: 1px solid white;
+    font-weight: 100;
+}
+.logito{
+    width: 190px;
+
+}
+.redes{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 100;
+}
+.redes1{
+    margin-left:  10px;
+    margin-right: 10px;
+}
+.segundoLogo{
+    width: 125px;
+}
+.contentSegundoLogo{
+    width: 120px;
+    margin-bottom: 30px;
+    
+}
+.titulitosDelFooter{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    letter-spacing: 1.8px;
+}
+.textoDelFooter{
+    text-align: center;
+    width: 210px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.primerArticuloFooter{
+    margin: 0;
+}
+.segundaDecoracionMobil{
+    position: absolute;
+    width: 160px;
+    
+    top: 590px;
+
+}
+.decoracionMobil{
+    position: absolute;
+    width: 110px;
+    
+    top: 953px;
+    left: 265px;
+
+}
+.decoracionMobil1{
+    position: absolute;
+    left: 185px;
+    top: 2354px;
+    width: 180px;
+}
+.decoracionMobil2{
+position:absolute;
+width: 380px;
+}
+
+    }
